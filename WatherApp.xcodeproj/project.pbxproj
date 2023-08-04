@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDBA61992A7C8B39002C6038 /* WatherApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EDBA61982A7C8B39002C6038 /* WatherApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDBA619E2A7C8B39002C6038 /* WatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA619D2A7C8B39002C6038 /* WatherAppApp.swift */; };
+		EDBA61A02A7C8B39002C6038 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA619F2A7C8B39002C6038 /* ContentView.swift */; };
+		EDBA61A22A7C8B3D002C6038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBA61A12A7C8B3D002C6038 /* Assets.xcassets */; };
+		EDBA61A52A7C8B3D002C6038 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBA61A42A7C8B3D002C6038 /* Preview Assets.xcassets */; };
+		EDBA61AF2A7C8B3D002C6038 /* WatherApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA61AE2A7C8B3D002C6038 /* WatherApp_Watch_AppTests.swift */; };
+		EDBA61B92A7C8B3D002C6038 /* WatherApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA61B82A7C8B3D002C6038 /* WatherApp_Watch_AppUITests.swift */; };
+		EDBA61BB2A7C8B3D002C6038 /* WatherApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA61BA2A7C8B3D002C6038 /* WatherApp_Watch_AppUITestsLaunchTests.swift */; };
+		EDBA61CD2A7C943A002C6038 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA61CC2A7C943A002C6038 /* LoginModel.swift */; };
+		EDBA61D02A7C94FD002C6038 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA61CF2A7C94FD002C6038 /* AuthService.swift */; };
+		EDBA61D22A7C97B2002C6038 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA61D12A7C97B2002C6038 /* LoginResponse.swift */; };
+		EDBA61D52A7C9B22002C6038 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA61D42A7C9B22002C6038 /* LoginViewModel.swift */; };
+		EDBA61D72A7CAC00002C6038 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA61D62A7CAC00002C6038 /* UserModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDBA619A2A7C8B39002C6038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDBA618C2A7C8B38002C6038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBA61972A7C8B39002C6038;
+			remoteInfo = "WatherApp Watch App";
+		};
+		EDBA61AB2A7C8B3D002C6038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDBA618C2A7C8B38002C6038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBA61972A7C8B39002C6038;
+			remoteInfo = "WatherApp Watch App";
+		};
+		EDBA61B52A7C8B3D002C6038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDBA618C2A7C8B38002C6038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBA61972A7C8B39002C6038;
+			remoteInfo = "WatherApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDBA61C12A7C8B3D002C6038 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EDBA61992A7C8B39002C6038 /* WatherApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDBA61922A7C8B39002C6038 /* WatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBA61982A7C8B39002C6038 /* WatherApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatherApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBA619D2A7C8B39002C6038 /* WatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatherAppApp.swift; sourceTree = "<group>"; };
+		EDBA619F2A7C8B39002C6038 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDBA61A12A7C8B3D002C6038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDBA61A42A7C8B3D002C6038 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDBA61AA2A7C8B3D002C6038 /* WatherApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatherApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBA61AE2A7C8B3D002C6038 /* WatherApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatherApp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		EDBA61B42A7C8B3D002C6038 /* WatherApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatherApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBA61B82A7C8B3D002C6038 /* WatherApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatherApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		EDBA61BA2A7C8B3D002C6038 /* WatherApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatherApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDBA61CC2A7C943A002C6038 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		EDBA61CF2A7C94FD002C6038 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		EDBA61D12A7C97B2002C6038 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		EDBA61D42A7C9B22002C6038 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EDBA61D62A7CAC00002C6038 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDBA61952A7C8B39002C6038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBA61A72A7C8B3D002C6038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBA61B12A7C8B3D002C6038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDBA618B2A7C8B38002C6038 = {
+			isa = PBXGroup;
+			children = (
+				EDBA619C2A7C8B39002C6038 /* WatherApp Watch App */,
+				EDBA61AD2A7C8B3D002C6038 /* WatherApp Watch AppTests */,
+				EDBA61B72A7C8B3D002C6038 /* WatherApp Watch AppUITests */,
+				EDBA61932A7C8B39002C6038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDBA61932A7C8B39002C6038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA61922A7C8B39002C6038 /* WatherApp.app */,
+				EDBA61982A7C8B39002C6038 /* WatherApp Watch App.app */,
+				EDBA61AA2A7C8B3D002C6038 /* WatherApp Watch AppTests.xctest */,
+				EDBA61B42A7C8B3D002C6038 /* WatherApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDBA619C2A7C8B39002C6038 /* WatherApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA61D32A7C9AFF002C6038 /* ViewModels */,
+				EDBA61CE2A7C94DE002C6038 /* Service */,
+				EDBA61CB2A7C9419002C6038 /* Models */,
+				EDBA619D2A7C8B39002C6038 /* WatherAppApp.swift */,
+				EDBA619F2A7C8B39002C6038 /* ContentView.swift */,
+				EDBA61A12A7C8B3D002C6038 /* Assets.xcassets */,
+				EDBA61A32A7C8B3D002C6038 /* Preview Content */,
+			);
+			path = "WatherApp Watch App";
+			sourceTree = "<group>";
+		};
+		EDBA61A32A7C8B3D002C6038 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA61A42A7C8B3D002C6038 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDBA61AD2A7C8B3D002C6038 /* WatherApp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA61AE2A7C8B3D002C6038 /* WatherApp_Watch_AppTests.swift */,
+			);
+			path = "WatherApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		EDBA61B72A7C8B3D002C6038 /* WatherApp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA61B82A7C8B3D002C6038 /* WatherApp_Watch_AppUITests.swift */,
+				EDBA61BA2A7C8B3D002C6038 /* WatherApp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WatherApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		EDBA61CB2A7C9419002C6038 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA61CC2A7C943A002C6038 /* LoginModel.swift */,
+				EDBA61D12A7C97B2002C6038 /* LoginResponse.swift */,
+				EDBA61D62A7CAC00002C6038 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDBA61CE2A7C94DE002C6038 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA61CF2A7C94FD002C6038 /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EDBA61D32A7C9AFF002C6038 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA61D42A7C9B22002C6038 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDBA61912A7C8B39002C6038 /* WatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBA61C22A7C8B3D002C6038 /* Build configuration list for PBXNativeTarget "WatherApp" */;
+			buildPhases = (
+				EDBA61902A7C8B39002C6038 /* Resources */,
+				EDBA61C12A7C8B3D002C6038 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDBA619B2A7C8B39002C6038 /* PBXTargetDependency */,
+			);
+			name = WatherApp;
+			productName = WatherApp;
+			productReference = EDBA61922A7C8B39002C6038 /* WatherApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		EDBA61972A7C8B39002C6038 /* WatherApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBA61BE2A7C8B3D002C6038 /* Build configuration list for PBXNativeTarget "WatherApp Watch App" */;
+			buildPhases = (
+				EDBA61942A7C8B39002C6038 /* Sources */,
+				EDBA61952A7C8B39002C6038 /* Frameworks */,
+				EDBA61962A7C8B39002C6038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatherApp Watch App";
+			productName = "WatherApp Watch App";
+			productReference = EDBA61982A7C8B39002C6038 /* WatherApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDBA61A92A7C8B3D002C6038 /* WatherApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBA61C52A7C8B3D002C6038 /* Build configuration list for PBXNativeTarget "WatherApp Watch AppTests" */;
+			buildPhases = (
+				EDBA61A62A7C8B3D002C6038 /* Sources */,
+				EDBA61A72A7C8B3D002C6038 /* Frameworks */,
+				EDBA61A82A7C8B3D002C6038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDBA61AC2A7C8B3D002C6038 /* PBXTargetDependency */,
+			);
+			name = "WatherApp Watch AppTests";
+			productName = "WatherApp Watch AppTests";
+			productReference = EDBA61AA2A7C8B3D002C6038 /* WatherApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDBA61B32A7C8B3D002C6038 /* WatherApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBA61C82A7C8B3D002C6038 /* Build configuration list for PBXNativeTarget "WatherApp Watch AppUITests" */;
+			buildPhases = (
+				EDBA61B02A7C8B3D002C6038 /* Sources */,
+				EDBA61B12A7C8B3D002C6038 /* Frameworks */,
+				EDBA61B22A7C8B3D002C6038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDBA61B62A7C8B3D002C6038 /* PBXTargetDependency */,
+			);
+			name = "WatherApp Watch AppUITests";
+			productName = "WatherApp Watch AppUITests";
+			productReference = EDBA61B42A7C8B3D002C6038 /* WatherApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDBA618C2A7C8B38002C6038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EDBA61912A7C8B39002C6038 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EDBA61972A7C8B39002C6038 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EDBA61A92A7C8B3D002C6038 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EDBA61972A7C8B39002C6038;
+					};
+					EDBA61B32A7C8B3D002C6038 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EDBA61972A7C8B39002C6038;
+					};
+				};
+			};
+			buildConfigurationList = EDBA618F2A7C8B38002C6038 /* Build configuration list for PBXProject "WatherApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDBA618B2A7C8B38002C6038;
+			productRefGroup = EDBA61932A7C8B39002C6038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDBA61912A7C8B39002C6038 /* WatherApp */,
+				EDBA61972A7C8B39002C6038 /* WatherApp Watch App */,
+				EDBA61A92A7C8B3D002C6038 /* WatherApp Watch AppTests */,
+				EDBA61B32A7C8B3D002C6038 /* WatherApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDBA61902A7C8B39002C6038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBA61962A7C8B39002C6038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBA61A52A7C8B3D002C6038 /* Preview Assets.xcassets in Resources */,
+				EDBA61A22A7C8B3D002C6038 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBA61A82A7C8B3D002C6038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBA61B22A7C8B3D002C6038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDBA61942A7C8B39002C6038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBA61A02A7C8B39002C6038 /* ContentView.swift in Sources */,
+				EDBA61D72A7CAC00002C6038 /* UserModel.swift in Sources */,
+				EDBA61CD2A7C943A002C6038 /* LoginModel.swift in Sources */,
+				EDBA61D52A7C9B22002C6038 /* LoginViewModel.swift in Sources */,
+				EDBA619E2A7C8B39002C6038 /* WatherAppApp.swift in Sources */,
+				EDBA61D02A7C94FD002C6038 /* AuthService.swift in Sources */,
+				EDBA61D22A7C97B2002C6038 /* LoginResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBA61A62A7C8B3D002C6038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBA61AF2A7C8B3D002C6038 /* WatherApp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBA61B02A7C8B3D002C6038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBA61B92A7C8B3D002C6038 /* WatherApp_Watch_AppUITests.swift in Sources */,
+				EDBA61BB2A7C8B3D002C6038 /* WatherApp_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDBA619B2A7C8B39002C6038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDBA61972A7C8B39002C6038 /* WatherApp Watch App */;
+			targetProxy = EDBA619A2A7C8B39002C6038 /* PBXContainerItemProxy */;
+		};
+		EDBA61AC2A7C8B3D002C6038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDBA61972A7C8B39002C6038 /* WatherApp Watch App */;
+			targetProxy = EDBA61AB2A7C8B3D002C6038 /* PBXContainerItemProxy */;
+		};
+		EDBA61B62A7C8B3D002C6038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDBA61972A7C8B39002C6038 /* WatherApp Watch App */;
+			targetProxy = EDBA61B52A7C8B3D002C6038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDBA61BC2A7C8B3D002C6038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDBA61BD2A7C8B3D002C6038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EDBA61BF2A7C8B3D002C6038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatherApp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatherApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MIlan.WatherApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		EDBA61C02A7C8B3D002C6038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatherApp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatherApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MIlan.WatherApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		EDBA61C32A7C8B3D002C6038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = WatherApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MIlan.WatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EDBA61C42A7C8B3D002C6038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = WatherApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MIlan.WatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDBA61C62A7C8B3D002C6038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MIlan.WatherApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatherApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatherApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		EDBA61C72A7C8B3D002C6038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MIlan.WatherApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatherApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatherApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		EDBA61C92A7C8B3D002C6038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MIlan.WatherApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatherApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		EDBA61CA2A7C8B3D002C6038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MIlan.WatherApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatherApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDBA618F2A7C8B38002C6038 /* Build configuration list for PBXProject "WatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBA61BC2A7C8B3D002C6038 /* Debug */,
+				EDBA61BD2A7C8B3D002C6038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBA61BE2A7C8B3D002C6038 /* Build configuration list for PBXNativeTarget "WatherApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBA61BF2A7C8B3D002C6038 /* Debug */,
+				EDBA61C02A7C8B3D002C6038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBA61C22A7C8B3D002C6038 /* Build configuration list for PBXNativeTarget "WatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBA61C32A7C8B3D002C6038 /* Debug */,
+				EDBA61C42A7C8B3D002C6038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBA61C52A7C8B3D002C6038 /* Build configuration list for PBXNativeTarget "WatherApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBA61C62A7C8B3D002C6038 /* Debug */,
+				EDBA61C72A7C8B3D002C6038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBA61C82A7C8B3D002C6038 /* Build configuration list for PBXNativeTarget "WatherApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBA61C92A7C8B3D002C6038 /* Debug */,
+				EDBA61CA2A7C8B3D002C6038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDBA618C2A7C8B38002C6038 /* Project object */;
+}
